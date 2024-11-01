@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rashard Mars Reconnaissance Orbiter of NasaJPL
+title: Rashard Iman Kelly of NasaJPL
 ---
 
 <ul>
