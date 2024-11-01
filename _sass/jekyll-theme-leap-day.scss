@@ -349,7 +349,7 @@ dt {
 }
 
 header {
-  padding: 25px 20px 40px 20px;
+ /* padding: 25px 20px 40px 20px;
   margin: 0;
   position: fixed;
   top: 0;
@@ -361,7 +361,7 @@ header {
   box-shadow: 1px 0px 2px rgba(0,0,0,.75);
   z-index:99;
   -webkit-font-smoothing:antialiased;
-  min-height: 76px;
+  min-height: 76px; */
 
   h1 {
     font: 40px/48px 'Martian Mono','Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -563,7 +563,7 @@ footer {
   }
 
   header {
-    padding:20px 20px;
+    padding:0px 0px;
     margin: 0;
 
     h1 {
