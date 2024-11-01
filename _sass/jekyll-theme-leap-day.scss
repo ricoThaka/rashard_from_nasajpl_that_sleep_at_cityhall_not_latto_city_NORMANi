@@ -387,7 +387,7 @@ section {
      
     display : flex;
     flex-wrap: wrap;
-    border-radius: 31px 31px 31px 31px;
+    border-radius: 0px 0px 0px 0px;
     margin-top: 0px;
   width: 85vh; 
   padding: 0px;
@@ -400,7 +400,7 @@ section {
   margin-left: auto; 	
   /* opera does not like 'margin:20px auto' */
   /* background: #666; */
-  border: 19px solid #DB362D;
+  border: 1px solid white;
   background: url(https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04329/opgs/edr/ncam/NLB_781808042EDR_F1091998NCAM00354M_.JPG) no-repeat 0 0 fixed;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
   background-size: cover;
@@ -412,8 +412,9 @@ section {
   /* part 2 of 2 centering hack */
   voice-family: "\"}\"";
   voice-family:inherit;
-   box-shadow: rgba(219,54,45, 0.4) 5px 5px, rgba(219,54,45, 0.3) 10px 10px, rgba(219,54,45, 0.2) 15px 15px, rgba(219,54,45, 0.1) 20px 20px, rgba(219,54,45, 0.05) 25px 25px;
-  font-family: 'Martian Mono',-apple-system, Ariel, Verdana; 
+   
+  
+  box-shadow: rgba(255,255,255, 0.4) 5px 5px, rgba(255,255,255, 0.3) 10px 10px, rgba(255,255,255, 0.2) 15px 15px, rgba(255,255,255, 0.1) 20px 20px, rgba(255,255,255, 0.05) 25px 25px;font-family: 'Martian Mono',-apple-system, Ariel, Verdana; 
   /* color: #c9ff23;  */
   overflow-y: auto;
   }
