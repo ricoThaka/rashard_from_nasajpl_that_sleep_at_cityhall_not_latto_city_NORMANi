@@ -93,12 +93,13 @@ p:first-of-type {
   }
 
 
-  
+  img[src*="cloudfront"] {width: 100%;
+    border-bottom:solid 10px  #FCE30070;}
   img[alt*="USGS"] {width: 100%;
     border-bottom:solid 10px  #BF785E;}
   /* matches selection in URL/src */
   img[src*="nasa.gov"] {width: 100%;
-    border-bottom:solid 10px  #c9ff23;}
+    border-bottom:solid 10px  #c9ff2340;}
   img[alt="kk"] {
     width: 100%;
     
